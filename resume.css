@@ -1,0 +1,45 @@
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: normal;
+    align-content: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.profile {
+    line-height: 15px;
+}
+h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+h5{
+    text-align: center;
+    display: inline;
+    
+}
+h4{
+    margin-bottom: 0.3%;
+}
+hr{
+    border:1px solid black;
+    border-top-width: 1px;
+}
+p{
+    font-size: 12px;
+    font-weight: 100;
+    color: solid black;
+}
+.year{
+    display: inline;
+}
+dd{
+    font-weight: 100;
+    font-size: 12px;
+    color: solid black;
+}
+dd::before{
+    content: "\2022";
+}
